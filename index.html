@@ -5,10 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  
 </head>
 <body>
   <div class="wrapper">
@@ -19,32 +22,66 @@
         <a href="#"><img src="./img/mail.png" alt="mail" class="btn"></a>
       </div>
       <div class="logo"><a href="#"><img src="./img/logo.png" alt="logo"></a></div>
-      <nav class="pc">
-        <ul>
-          <li><a href="#">WEB</a></li>
-          <li><a href="#">LIFE</a></li>
-          <li><a href="#">キャリア</a></li>
-          <li><a href="#">旅</a></li>
-          <li><a href="#">マーケティング</a></li>
-          <li><a href="#">DevRel</a></li>
-          <li><a href="#">英語</a></li>
-        </ul>
-      </nav>
-      <div class="menu sp"><a href=""><i class="fas fa-bars"></i></a></div>
+      <div class="nav-wrapper">
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">WEB</a></li>
+            <li class="nav-item"><a href="#">LIFE</a></li>
+            <li class="nav-item"><a href="#">キャリア</a></li>
+            <li class="nav-item"><a href="#">旅</a></li>
+            <li class="nav-item"><a href="#">マーケティング</a></li>
+            <li class="nav-item sp"><a href="#">DevRel</a></li>
+            <li class="nav-item sp"><a href="#">英語</a></li>
+            <li class="nav-item sp"><a href="#"><img src="./img/facebook.png" alt="facebook" class="btn"></a></li>
+            <li class="nav-item sp"><a href="#"><img src="./img/twitter.png" alt="twitter" class="twitter btn"></a></li>
+            <li class="nav-item sp"><a href="#"><img src="./img/mail.png" alt="mail" class="btn"></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="burger-btn sp"><!-- ③ハンバーガーボタン -->
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </div>
     </header>
     <div class="content">
       <div class="visual">
-        <div class="visual-left">
-          <img src="./img/key02.jpg" alt="img-left" class="img-left">
-          <a href="#"><img src="./img/prev.png" alt="prev" class="prev"></a>
+        
+        <div class="visual-center pc">
+          <ul class="slick01 ">
+            <li>
+              <img src="./img/key01.jpg" alt="img-middle" class="pc">
+              
+            </li>
+            <li>
+              <img src="./img/pc-town.jpg" alt="pc-town" class="pc">
+             
+            </li>
+            <li>
+              <img src="./img/pc-town2.jpg" alt="pc-town2" class="pc">
+              
+            </li>
+          </ul>
         </div>
-        <div class="visual-center">
-          <img src="./img/key01.jpg" alt="img-middle" class="pc">
-          <img src="./img/sp-top-img.jpg" alt="sp-top" class="img-center sp">
+        <div class="visual-center sp">
+          <ul class="slick01 ">
+            <li>
+              
+              <img src="./img/sp-top-img.jpg" alt="sp-top" class="img-center sp">
+            </li>
+            <li>
+             
+              <img src="./img/sp-town.jpg" alt="sp-town" class="img-center sp">
+            </li>
+            <li>
+             
+              <img src="./img/sp-town2.jpg" alt="sp-town2" class="img-center sp">
+            </li>
+          </ul>
         </div>
-        <div class="visual-right">
-          <img src="./img/key03.jpg" alt="img-right" class="img-right">
-          <a href=""><img src="./img/next.png" alt="next" class="next"></div></a>
+      </div>
+
+        
       </div>
       <article>
         <div class="contents">
@@ -182,7 +219,9 @@
     </footer>
   </div>
   <script src="script/jquery-3.6.0.min.js"></script>
+  
   <script src="script/script.js"></script>
+  <script src="script/slick.min.js"></script>
   
 </body>
 </html>

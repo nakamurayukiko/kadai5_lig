@@ -125,6 +125,7 @@
  
  
   .visual-center {
+    width: 100%;
     overflow: hidden;
     
   }
@@ -314,42 +315,7 @@
     display: block;
   }
 
-    .slick-prev{
-      left: 0px !important;
-      z-index: 10;
-  }
-  [dir='rtl'] .slick-prev
-  {
-      right: -25px;
-      left: auto;
-  }
-  .slick-prev:before
-  {
-      content: '←';
-  }
-  [dir='rtl'] .slick-prev:before
-  {
-      content: '→';
-  }
-
-  .slick-next
-  {
-      right: 0px;
-  }
-  [dir='rtl'] .slick-next
-  {
-      right: auto;
-      left: -25px;
-  }
-  .slick-next:before
-  {
-      content: '→';
-  }
-  [dir='rtl'] .slick-next:before
-  {
-      content: '←';
-  }
-
+ 
   
 
   
